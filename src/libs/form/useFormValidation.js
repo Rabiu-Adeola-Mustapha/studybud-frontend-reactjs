@@ -29,7 +29,7 @@ function useFormValidation(initialState, validationRules, callBack) {
         }
       }
     },
-    [isSubmitting],
+    
   );
 
   const handleChange = e => {
