@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.footer__section {
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(201, 191, 191);
+    display: flex;
+    justify-content: center;
+}
+
+.footer__section1, .footer__section2, .footer__section3, .footer__section4{
+    height: 80vh;
+    width: 25vw;
+    /* border: 1px solid black; */
+}
+
+.footer__section1 > img{
+    height: 80vh;
+    width: 25vw;
+}
+
+
+.footer__section2 > h1, .footer__section4 > h1{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin: 6rem 0 0 4rem;
+}
+
+.footer__section3 > h1{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin: 6rem 0 3rem 4rem;
+}
+
+.footer__section2 > h4{
+    font-size: 15px;
+    margin: 2rem 0 2rem 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer__section2 > h3, .footer__section3 > h3{
+    margin: 0 0 0 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer__section2 > h5{
+    margin: 0 0 0 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer__section3 > h3{
+    /* margin: 4rem 0 0 6rem; */
+    /* line-height: 20px; */
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer__section4 > h2{
+    font-size: 30px;
+    margin: 3rem 0 0 5rem;
+    /* padding-left: 0 0 0 3rem; */
+}
+
+
+
+
+
+
+/* .footer__section{
+    display: flex;
+    align-items: center;
+    padding: 10vh 4rem;
+    background-color: rgba(124, 124, 70, 0.194);
+    color: black;
+    flex-direction: column;
+    height: 100vh;
+    /* background: url(../../public/images/Pic-1shoe.jpg) no-repeat; */
+    /* background-size: cover; */
+/* } */ 
+
+/* .footer__heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__body{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    padding: 10px;
+} */
+
+
+/* .footer__t1{
+    justify-content: center;
+   color: rgb(28, 13, 41)
+
+}
+
+.footer__h3{
+
+} */
+
+
+

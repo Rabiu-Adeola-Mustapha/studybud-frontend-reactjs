@@ -1,0 +1,66 @@
+.header {
+  padding: 40px 0px;
+  /* display: flex; */
+  justify-content: space-between;
+  padding: 10vh 4rem;
+  background-color: rgb(37, 37, 35);
+  height: 100vh;
+  background: url(/public/images/keepLearning.jpg) no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  width: 40%;
+}
+
+.left {
+  margin: 60px 20px;
+  
+  /* background-color: blue; */
+}
+.right {
+  margin: auto auto;
+}
+
+.header__h4 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: rgb(182, 134, 227);
+}
+
+.header__p {
+  margin: 0;
+  font-size: 3rem;
+  color: white;
+}
+
+.header__h1 {
+  font-size: 6rem;
+  margin: 0;
+  color: white;
+}
+.bttn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 15px 20px;
+  border: solid 2px goldenrod;
+  background-color: goldenrod;
+  border-radius: 10px;
+  font-size: 1rem;
+
+}
+
+.button:hover {
+  margin-top: 20px;
+  padding: 15px 20px;
+  border: solid 2px goldenrod;
+  background-color: rgba(5, 5, 5, 0);
+  border-radius: 10px;
+  font-size: 1rem;
+  color: goldenrod;
+  transition: all ease-in-out 0.3s;
+}
