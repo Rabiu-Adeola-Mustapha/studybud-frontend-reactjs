@@ -7,12 +7,12 @@ function useFormValidation(initialState, validationRules, callBack) {
   const [errors, setErrors] = React.useState({});
   const [isSubmitting, setIsSubmitting] = React.useState(false);
 
-  const submitting = React.useCallback(
-    () => {
-      setIsSubmitting(false);
-    },
-    [setIsSubmitting],
-  );
+  // const submitting = React.useCallback(
+  //   () => {
+  //     setIsSubmitting(false);
+  //   },
+  //   [setIsSubmitting],
+  // );
 
   React.useEffect(
     () => {
