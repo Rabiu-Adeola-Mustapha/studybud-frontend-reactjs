@@ -2,9 +2,9 @@ import React from "react";
 import {
   AcademicCapIcon,
   UserAddIcon,
-  CashIcon,
-  IdentificationIcon,
-  PresentationChartLineIcon,
+  // CashIcon,
+  // IdentificationIcon,
+  // PresentationChartLineIcon,
 } from "@heroicons/react/outline";
 import { Link } from "react-router-dom";
 
