@@ -15,7 +15,7 @@ const VALIDATION_RULES = {
 const TeacherLogin = () => {
   const { state, handleChange, handleSubmit, errors, updateIsSubmitting } =
     useFormValidation(INITIAL_STATE, VALIDATION_RULES, teacherLogin);
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
   //   const router = useRoutes();
 
@@ -35,7 +35,7 @@ const TeacherLogin = () => {
   }
   //   return <h1>igo8ifuiofgio</h1>;
   return (
-    <div className="max-w-4xl mx-auto mt-10">
+    <div className="grid gap-5 max-w-xl mx-auto mt-10">
       <h1 className="text-2xl"> Teachers LogIn</h1>
       {errors &&
         errors.email &&
@@ -73,7 +73,9 @@ const TeacherLogin = () => {
             />
           </div>
           <div>
-            <button>Submit</button>
+            <button className="bg-slate-700 px-10 py-2 text-white">
+              Submit
+            </button>
           </div>
         </div>
       </form>

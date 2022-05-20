@@ -44,7 +44,7 @@ const AdminLogin = () => {
         errors.password.map((err) => <p style={{ color: "red" }}>{err}</p>)}
 
       <form className="" onSubmit={handleSubmit}>
-        <div className="grid md:grid-cols-2 gap-5">
+        <div className="grid gap-5 max-w-xl mx-auto mt-10">
           <div>
             <label htmlFor="email" className="block text-xl mb-2">
               Email
@@ -72,7 +72,9 @@ const AdminLogin = () => {
             />
           </div>
           <div>
-            <button>Submit</button>
+            <button className="bg-slate-700 px-10 py-2 text-white">
+              Submit
+            </button>
           </div>
         </div>
       </form>

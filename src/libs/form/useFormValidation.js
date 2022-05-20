@@ -14,23 +14,23 @@ function useFormValidation(initialState, validationRules, callBack) {
   //   [setIsSubmitting],
   // );
 
-  React.useEffect(
-    () => {
-      if (isSubmitting) {
-        let noErrors = 0;
-        Object.values(errors).forEach(err => {
-          noErrors += err.length;
-        });
-        if (noErrors === 0) {
-          callBack();
-          setErrors({});
-        } else {
-          setIsSubmitting(false);
-        }
-      }
-    },
+  // React.useEffect(
+  //   () => {
+  //     if (isSubmitting) {
+  //       let noErrors = 0;
+  //       Object.values(errors).forEach(err => {
+  //         noErrors += err.length;
+  //       });
+  //       if (noErrors === 0) {
+  //         callBack();
+  //         setErrors({});
+  //       } else {
+  //         setIsSubmitting(false);
+  //       }
+  //     }
+  //   },
     
-  );
+  // );
 
   const handleChange = e => {
     const { name, value, files, type, checked } = e.target;
