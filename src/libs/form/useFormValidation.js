@@ -1,5 +1,6 @@
-// import React, { SyntheticEvent } from 'react';
+import React from 'react';
 import validateForm from './validateForm';
+
 
 function useFormValidation(initialState, validationRules, callBack) {
   const [state, setState] = React.useState(initialState);
