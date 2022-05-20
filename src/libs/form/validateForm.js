@@ -9,7 +9,7 @@ import {
   testBool,
   testGhanaCard,
   testDigitalAddress,
-  testFile,
+  // testFile,
 } from './validationRules';
 
 const decamelize = (str, separator) => {
@@ -190,7 +190,7 @@ const validateForm = (values, rules) => {
                   }
                   break;
                 case 'docs':
-                  const regex = /(\.pdf|\.doc|\.docx)$/i;
+                  // const regex = /(\.pdf|\.doc|\.docx)$/i;
                   if (values[valueKey].name) {
                     // if (
                     //     !regex.exec(values[valueKey].name)
