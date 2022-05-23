@@ -21,7 +21,10 @@ const TeacherLogin = () => {
 
   async function teacherLogin() {
     axios
-      .post("http://127.0.0.1:8800/api/studentportal/login/teacher", state)
+      .post(
+        "https://magenta-rose-angler-gown.cyclic.app/api/studentportal/login/teacher",
+        state
+      )
       .then((res) => {
         updateIsSubmitting(false);
         navigate("/teacher");

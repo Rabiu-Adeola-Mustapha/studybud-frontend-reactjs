@@ -1,5 +1,5 @@
 import React from "react";
-import  {useNavigate}  from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import useFormValidation from "../libs/form/useFormValidation";
 import axios from "axios";
 
@@ -20,7 +20,10 @@ const AdminLogin = () => {
 
   async function adminLogin() {
     axios
-      .post("http://127.0.0.1:8800/api/studentportal/admin/login", state)
+      .post(
+        "https://magenta-rose-angler-gown.cyclic.app/api/studentportal/admin/login/api/studentportal/admin/login",
+        state
+      )
       .then((res) => {
         updateIsSubmitting(false);
         console.log(res.data);
