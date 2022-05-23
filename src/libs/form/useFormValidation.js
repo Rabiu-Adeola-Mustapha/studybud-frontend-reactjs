@@ -65,7 +65,7 @@ function useFormValidation(initialState, validationRules, callBack) {
   };
 
   const handleBlur = e => {
-    const { name, value } = e.target;
+    const { name } = e.target;
     const err = validateForm(
       state,
       { [name]: validationRules[`${name}`] },
@@ -73,7 +73,7 @@ function useFormValidation(initialState, validationRules, callBack) {
     setErrors(error => ({ ...error, ...err }));
   };
   const handleKeyDown = e => {
-    const { name, value } = e.target;
+    const { name} = e.target;
     const err = validateForm(
       state,
       { [name]: validationRules[`${name}`] },
