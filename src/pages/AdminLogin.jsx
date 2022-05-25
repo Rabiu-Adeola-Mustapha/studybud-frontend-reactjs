@@ -21,7 +21,7 @@ const AdminLogin = () => {
   async function adminLogin() {
     axios
       .post(
-        "https://magenta-rose-angler-gown.cyclic.app/api/studentportal/admin/login/api/studentportal/admin/login",
+        "https://plum-breakable-gharial.cyclic.app/api/studentportal/admin/login",
         state
       )
       .then((res) => {

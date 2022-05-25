@@ -24,7 +24,7 @@ const StudentLogin = () => {
   async function studentLogin() {
     axios
       .post(
-        "https://magenta-rose-angler-gown.cyclic.app/api/studentportal/admin/login/api/studentportal/login/student",
+        "https://plum-breakable-gharial.cyclic.app/api/studentportal/login/student",
         state
       )
       .then((res) => {

@@ -87,7 +87,7 @@ const RegisterStudent = () => {
                 onChange={handleChange}
               />
             </div>
-            {/* <div>
+            <div>
               <label htmlFor="level" className="block text-xl mb-2">
                 Level
               </label>
@@ -103,7 +103,7 @@ const RegisterStudent = () => {
                 <option value="basictwo"> Basic Two</option>
                 <option value="basicthree">Basic Three</option>
               </select>
-            </div> */}
+            </div>
             <div>
               <label htmlFor="guardianMail" className="block text-xl mb-2">
                 Guardian Mail

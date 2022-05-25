@@ -1,5 +1,5 @@
 import React from "react";
-import  {useNavigate}  from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import useFormValidation from "../libs/form/useFormValidation";
 import axios from "axios";
 
@@ -22,7 +22,7 @@ const TeacherLogin = () => {
   async function teacherLogin() {
     axios
       .post(
-        "https://magenta-rose-angler-gown.cyclic.app/api/studentportal/login/teacher",
+        "https://plum-breakable-gharial.cyclic.app/api/studentportal/login/teacher",
         state
       )
       .then((res) => {
